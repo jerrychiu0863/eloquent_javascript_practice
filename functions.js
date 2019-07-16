@@ -6,13 +6,13 @@ function min(num1, num2) {
 console.log(min(0, 10));
 console.log(min(0, -10));
 
-// function isEven(num) {
-//   if (num % 2 === 0) {
-//     return true;
-//   } else {
-//     return false;
-//   }
-// }
+function isEven(num) {
+  if (num % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 console.log(isEven(50));
 console.log(isEven(75));
